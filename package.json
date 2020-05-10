@@ -2,9 +2,10 @@
   "name": "pnx-gui",
   "version": "0.0.1",
   "description": "A desktop app for managing PocketNodeX servers.",
-  "main": "src/init.js",
+  "main": "src/app.js",
   "scripts": {
-    "test": "npx electron ."
+    "test": "npx electron .",
+    "sass": "npx sass --watch src/media/sass/styles.sass:src/media/css/styles.css"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,13 @@
   },
   "homepage": "https://github.com/Floffah/pnx-gui#readme",
   "devDependencies": {
-    "nexe": "^3.3.2"
+    "electron": "^8.2.5",
+    "electron-builder": "^22.6.0",
+    "electron-debug": "^3.0.1",
+    "sass": "^1.26.5"
+  },
+  "dependencies": {
+    "got": "^11.1.2",
+    "lowdb": "^1.0.0"
   }
 }
