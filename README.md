@@ -1,2 +1,2 @@
-# pnx-installer
-An installer for @HerryYT/PocketNodeX written in NodeJS, compiled using Nexe.
+# PNX Gui
+A desktop app for managing PocketNodeX servers.
